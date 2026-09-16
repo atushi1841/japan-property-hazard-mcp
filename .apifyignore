@@ -1,0 +1,9 @@
+# node_modules と venv を除外
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.git/
+data/

@@ -1,0 +1,7 @@
+{
+  "hazard-risk-query": {
+    "eventTitle": "ハザードリスク照会",
+    "eventDescription": "指定住所の洪水・土砂・津波・液状化リスクレベル(0-3)を返す1回の照会",
+    "eventPriceUsd": 0.005
+  }
+}

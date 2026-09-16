@@ -1,0 +1,17 @@
+{
+  "title": "日本物件ハザードリスクMCP",
+  "description": "住所を指定すると洪水・土砂・津波・液状化のハザードリスクレベル(0-3)を返す。MLIT不動産情報ライブラリAPIを使用するため、利用者自身のAPIキー(BYOK)が必要。",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "MLIT_API_KEY": {
+      "title": "MLIT不動産情報ライブラリAPIキー",
+      "type": "string",
+      "description": "国土交通省 不動産情報ライブラリAPIの利用キー(無料申請)。未指定・不正だとハザード値は全て0になります。",
+      "editor": "textfield",
+      "isSecret": true,
+      "nullable": true
+    }
+  },
+  "required": []
+}
