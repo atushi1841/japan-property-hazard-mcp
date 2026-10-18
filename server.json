@@ -1,1 +1,21 @@
-{"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json", "name": "io.github.atushi1841/japan-property-hazard-mcp", "description": "Japan property hazard MCP - MLIT API flood/landslide/tsunami/liquefaction risk (BYOK)", "repository": {"url": "https://github.com/atushi1841/japan-property-hazard-mcp", "source": "github"}, "version": "0.1.1", "packages": [{"registryType": "mcpb", "identifier": "https://github.com/atushi1841/japan-property-hazard-mcp/releases/download/v0.1.1/server.mcpb", "version": "0.1.1", "transport": {"type": "stdio"}}]}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.atushi1841/japan-property-hazard-mcp",
+  "description": "Japan property hazard MCP - MLIT API flood/landslide/tsunami/liquefaction risk (BYOK)",
+  "repository": {
+    "url": "https://github.com/atushi1841/japan-property-hazard-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/atushi1841/japan-property-hazard-mcp/releases/download/v0.1.1/server.mcpb",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "fileSha256": "e7891fa43b6e755aba0ab7b2f086b44d64c76259b320554f999a6bf035fa3548"
+    }
+  ]
+}
